@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+            int[] arr = Console.ReadLine()
+                .Split(",")
+                .Select(int.Parse)
+                .ToArray();
+
+            var reverseArray = arr.Reverse();
+            Console.WriteLine(string.Join(", ", reverseArray));
+            
+            
         }
     }
 }
