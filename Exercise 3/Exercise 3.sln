@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Sum of Absolute Numbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Reverse Array", "03. Reverse Array\03. Reverse Array.csproj", "{907E3FBD-F846-4C76-9CC9-3C124F6015ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Most Common Symbol", "04. Most Common Symbol\04. Most Common Symbol.csproj", "{5EE6FA91-1AB8-468F-9930-0FE84FCDA958}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{907E3FBD-F846-4C76-9CC9-3C124F6015ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{907E3FBD-F846-4C76-9CC9-3C124F6015ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{907E3FBD-F846-4C76-9CC9-3C124F6015ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE6FA91-1AB8-468F-9930-0FE84FCDA958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE6FA91-1AB8-468F-9930-0FE84FCDA958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE6FA91-1AB8-468F-9930-0FE84FCDA958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE6FA91-1AB8-468F-9930-0FE84FCDA958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

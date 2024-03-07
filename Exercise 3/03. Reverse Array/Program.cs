@@ -13,7 +13,6 @@
             var reverseArray = arr.Reverse();
             Console.WriteLine(string.Join(", ", reverseArray));
             
-            
         }
     }
 }
