@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] numebrs = new int[20];
+            Random random = new Random();
+            for (int i = 0; i < numebrs.Length; i++)
+            {
+                numebrs[i] = random.Next(-3000, 3000);
+            }
+
+            for (int i = 0; i < numebrs.Length; i += 2)
+            {
+                Console.WriteLine(numebrs[i]);
+            }
         }
     }
 }
