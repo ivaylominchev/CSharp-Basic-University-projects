@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Two-digit numbers", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Reverse symbols", "04. Reverse symbols\04. Reverse symbols.csproj", "{70BD60B9-5986-40F0-927A-D82022C587ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Number of matches", "05. Number of matches\05. Number of matches.csproj", "{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{70BD60B9-5986-40F0-927A-D82022C587ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70BD60B9-5986-40F0-927A-D82022C587ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70BD60B9-5986-40F0-927A-D82022C587ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
