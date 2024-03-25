@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Vowels", "01. Vowels\01. Vowels.csproj", "{F9DF2CA4-D464-4EC1-BDAF-5069C85DF707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Vowels", "01. Vowels\01. Vowels.csproj", "{F9DF2CA4-D464-4EC1-BDAF-5069C85DF707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Average Number", "02. Average Number\02. Average Number.csproj", "{A3FDF060-A45D-43B2-B874-92A88670DBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Average Number", "02. Average Number\02. Average Number.csproj", "{A3FDF060-A45D-43B2-B874-92A88670DBC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Two-digit numbers", "03. Two-digit numbers\03. Two-digit numbers.csproj", "{E62FF655-907E-4081-830D-2C39745CFCA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A3FDF060-A45D-43B2-B874-92A88670DBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3FDF060-A45D-43B2-B874-92A88670DBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3FDF060-A45D-43B2-B874-92A88670DBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62FF655-907E-4081-830D-2C39745CFCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62FF655-907E-4081-830D-2C39745CFCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62FF655-907E-4081-830D-2C39745CFCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62FF655-907E-4081-830D-2C39745CFCA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
