@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Vowels", "01. Vowels\01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Average Number", "02. Average Number\02. Average Number.csproj", "{A3FDF060-A45D-43B2-B874-92A88670DBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Two-digit numbers", "03. Two-digit numbers\03. Two-digit numbers.csproj", "{E62FF655-907E-4081-830D-2C39745CFCA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Two-digit numbers", "03. Two-digit numbers\03. Two-digit numbers.csproj", "{E62FF655-907E-4081-830D-2C39745CFCA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Reverse symbols", "04. Reverse symbols\04. Reverse symbols.csproj", "{70BD60B9-5986-40F0-927A-D82022C587ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Reverse symbols", "04. Reverse symbols\04. Reverse symbols.csproj", "{70BD60B9-5986-40F0-927A-D82022C587ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Number of matches", "05. Number of matches\05. Number of matches.csproj", "{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Number of matches", "05. Number of matches\05. Number of matches.csproj", "{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Ascending or descending row", "06. Ascending or descending row\06. Ascending or descending row.csproj", "{D1B418D5-495D-4667-BBFC-A8BB313990C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B418D5-495D-4667-BBFC-A8BB313990C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B418D5-495D-4667-BBFC-A8BB313990C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B418D5-495D-4667-BBFC-A8BB313990C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B418D5-495D-4667-BBFC-A8BB313990C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
