@@ -13,17 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Reverse symbols", "04. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Number of matches", "05. Number of matches\05. Number of matches.csproj", "{B6B98807-2C1B-4C7E-AA11-5D1C4F7C53DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Ascending or descending row", "06. Ascending or descending row\06. Ascending or descending row.csproj", "{D1B418D5-495D-4667-BBFC-A8BB313990C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Ascending or descending row", "06. Ascending or descending row\06. Ascending or descending row.csproj", "{D1B418D5-495D-4667-BBFC-A8BB313990C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Contains digit", "07. Contains digit\07. Contains digit.csproj", "{711B3792-A220-4992-BFFE-EECE2CC0C167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Contains digit", "07. Contains digit\07. Contains digit.csproj", "{711B3792-A220-4992-BFFE-EECE2CC0C167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Ignore same numbers", "08. Ignore same numbers\08. Ignore same numbers.csproj", "{D2AF3950-3F98-4467-A89F-99B382A2C9DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. Ignore same numbers", "08. Ignore same numbers\08. Ignore same numbers.csproj", "{D2AF3950-3F98-4467-A89F-99B382A2C9DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Even or odd numbers", "09. Even or odd numbers\09. Even or odd numbers.csproj", "{59495FAB-B05D-4279-A99B-5D8AE5F2E813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Even or odd numbers", "09. Even or odd numbers\09. Even or odd numbers.csproj", "{59495FAB-B05D-4279-A99B-5D8AE5F2E813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Positive numbers", "10. Positive numbers\10. Positive numbers.csproj", "{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Positive numbers", "10. Positive numbers\10. Positive numbers.csproj", "{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Same number", "11. Same number\11. Same number.csproj", "{50492491-9B7E-4DA3-945B-FD1EDB620E11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Same number", "11. Same number\11. Same number.csproj", "{50492491-9B7E-4DA3-945B-FD1EDB620E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Palindrome string", "12. Palindrome string\12. Palindrome string.csproj", "{8826C2A8-4BDE-4FAD-8626-F4C8A7C05CBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{50492491-9B7E-4DA3-945B-FD1EDB620E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50492491-9B7E-4DA3-945B-FD1EDB620E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50492491-9B7E-4DA3-945B-FD1EDB620E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8826C2A8-4BDE-4FAD-8626-F4C8A7C05CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8826C2A8-4BDE-4FAD-8626-F4C8A7C05CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8826C2A8-4BDE-4FAD-8626-F4C8A7C05CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8826C2A8-4BDE-4FAD-8626-F4C8A7C05CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
