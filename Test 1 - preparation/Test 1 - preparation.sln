@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Ignore same numbers", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Even or odd numbers", "09. Even or odd numbers\09. Even or odd numbers.csproj", "{59495FAB-B05D-4279-A99B-5D8AE5F2E813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Positive numbers", "10. Positive numbers\10. Positive numbers.csproj", "{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{59495FAB-B05D-4279-A99B-5D8AE5F2E813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59495FAB-B05D-4279-A99B-5D8AE5F2E813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59495FAB-B05D-4279-A99B-5D8AE5F2E813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4526EBB2-6F10-4F2C-B308-1B0C64B8AB86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
