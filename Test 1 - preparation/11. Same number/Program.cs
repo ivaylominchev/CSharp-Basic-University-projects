@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int n = int.Parse(Console.ReadLine());
+            int sameNumber = n;
+            int count = 0;
+            while (sameNumber == n)
+            {
+                n = int.Parse(Console.ReadLine());
+                count++;
+            }
+            Console.WriteLine($"{sameNumber} - {count} times");
         }
     }
 }
