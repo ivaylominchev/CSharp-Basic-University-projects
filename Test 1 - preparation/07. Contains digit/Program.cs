@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string companyName = string.Empty;
+            string names = string.Empty;
+            for (int i = 0; i < 5; i++)
+            {
+                companyName = Console.ReadLine();
+                if (companyName.Any(char.IsDigit))
+                {
+                    names += companyName + " ";
+                }
+            }
+
+            Console.WriteLine(string.Join("",names));
         }
     }
 }
