@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.DGrid1 = new System.Windows.Forms.DataGridView();
+            this.DGrid = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -37,24 +37,24 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.DGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
             this.SuspendLayout();
             // 
-            // DGrid1
+            // DGrid
             // 
-            this.DGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5});
-            this.DGrid1.Location = new System.Drawing.Point(40, 235);
-            this.DGrid1.Name = "DGrid1";
-            this.DGrid1.RowHeadersWidth = 51;
-            this.DGrid1.RowTemplate.Height = 24;
-            this.DGrid1.Size = new System.Drawing.Size(679, 150);
-            this.DGrid1.TabIndex = 0;
+            this.DGrid.Location = new System.Drawing.Point(40, 235);
+            this.DGrid.Name = "DGrid";
+            this.DGrid.RowHeadersWidth = 51;
+            this.DGrid.RowTemplate.Height = 24;
+            this.DGrid.Size = new System.Drawing.Size(679, 150);
+            this.DGrid.TabIndex = 0;
             // 
             // Column1
             // 
@@ -128,18 +128,18 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.DGrid1);
+            this.Controls.Add(this.DGrid);
             this.Name = "Form1";
             this.Text = "Карти";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.DGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DGrid)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView DGrid1;
+        private System.Windows.Forms.DataGridView DGrid;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

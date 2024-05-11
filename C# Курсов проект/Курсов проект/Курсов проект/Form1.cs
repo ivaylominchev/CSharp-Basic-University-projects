@@ -30,7 +30,7 @@ namespace Курсов_проект
                 cr.Currency = br.ReadString();
                 cr.Balance = br.ReadDecimal();
                 cards.Add(cr);
-                DGrid1.Rows.Add(cr.CardNumber, cr.CardType, cr.Date, cr.CardNumber, cr.Balance);
+                DGrid.Rows.Add(cr.CardNumber, cr.CardType, cr.Date, cr.CardNumber, cr.Balance);
             }
             fs.Close();
         }
