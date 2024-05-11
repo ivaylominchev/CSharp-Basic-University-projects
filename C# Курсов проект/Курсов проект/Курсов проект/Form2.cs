@@ -13,10 +13,10 @@ namespace Курсов_проект
     public partial class Form2 : Form
     {
         Form1 gl;
-        public Form2(Form1 f)
+        public Form2(Form1 gl)
         {
             InitializeComponent();
-            gl = f;
+            this.gl = gl;
         }
 
         private void Form2_Load(object sender, EventArgs e)

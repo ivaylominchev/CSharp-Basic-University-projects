@@ -68,7 +68,7 @@
             this.DGrid.Name = "DGrid";
             this.DGrid.RowHeadersWidth = 51;
             this.DGrid.RowTemplate.Height = 24;
-            this.DGrid.Size = new System.Drawing.Size(240, 150);
+            this.DGrid.Size = new System.Drawing.Size(333, 150);
             this.DGrid.TabIndex = 4;
             // 
             // Form2

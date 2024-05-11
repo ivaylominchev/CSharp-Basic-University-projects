@@ -49,5 +49,10 @@ namespace Курсов_проект
         {
 
         }
+
+        public void AddToDGrid(int CardNumber, string CardType, string Date, string Currency, decimal Balance)
+        {
+            DGrid.Rows.Add(CardNumber, CardType, Date, Currency, Balance);
+        }
     }
 }

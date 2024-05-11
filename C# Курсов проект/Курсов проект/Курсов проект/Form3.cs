@@ -13,22 +13,16 @@ namespace Курсов_проект
     public partial class Form3 : Form
     {
         Form1 gl;
-        public Form3(Form1 f)
+        public Form3(Form1 gl)
         {
             InitializeComponent();
-            gl = f;
+            this.gl = gl;
             
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Card cr = new Card();
-            cr.CardNumber = Convert.ToInt32(textBox1.Text);
-            cr.CardType = textBox2.Text;
-            cr.Date = textBox3.Text;
-            cr.Currency = textBox4.Text;
-            cr.Balance = Convert.ToDecimal(textBox5.Text);
-            gl.cards.Add(cr);
+            gl.AddToDGrid(Convert.ToInt32(textBox1.Text), textBox2.Text, textBox3.Text, textBox4.Text, Convert.ToDecimal(textBox5.Text));
             Close();
         }
     }
