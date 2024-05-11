@@ -30,7 +30,7 @@ namespace Курсов_проект
                 cr.Currency = br.ReadString();
                 cr.Balance = br.ReadDecimal();
                 cards.Add(cr);
-                DGrid.Rows.Add(cr.CardNumber, cr.CardType, cr.Date, cr.CardNumber, cr.Balance);
+                DGrid1.Rows.Add(cr.CardNumber, cr.CardType, cr.Date, cr.CardNumber, cr.Balance);
             }
             fs.Close();
         }
@@ -43,6 +43,11 @@ namespace Курсов_проект
         private void button2_Click(object sender, EventArgs e)
         {
             new Form3(this).Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
