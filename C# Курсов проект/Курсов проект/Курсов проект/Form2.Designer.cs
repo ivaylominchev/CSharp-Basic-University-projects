@@ -32,6 +32,9 @@
             this.Намери = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.DGrid = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +47,7 @@
             // 
             // Намери
             // 
-            this.Намери.Location = new System.Drawing.Point(354, 35);
+            this.Намери.Location = new System.Drawing.Point(352, 35);
             this.Намери.Name = "Намери";
             this.Намери.Size = new System.Drawing.Size(126, 42);
             this.Намери.TabIndex = 2;
@@ -63,13 +66,44 @@
             // 
             // DGrid
             // 
+            this.DGrid.AllowUserToAddRows = false;
+            this.DGrid.AllowUserToDeleteRows = false;
             this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGrid.Location = new System.Drawing.Point(120, 230);
+            this.DGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3});
+            this.DGrid.Location = new System.Drawing.Point(67, 228);
             this.DGrid.Name = "DGrid";
+            this.DGrid.ReadOnly = true;
             this.DGrid.RowHeadersWidth = 51;
             this.DGrid.RowTemplate.Height = 24;
-            this.DGrid.Size = new System.Drawing.Size(333, 150);
+            this.DGrid.Size = new System.Drawing.Size(430, 150);
             this.DGrid.TabIndex = 4;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Номер на карта";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Вид на карта";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Салдо";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 125;
             // 
             // Form2
             // 
@@ -94,5 +128,8 @@
         private System.Windows.Forms.Button Намери;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView DGrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }

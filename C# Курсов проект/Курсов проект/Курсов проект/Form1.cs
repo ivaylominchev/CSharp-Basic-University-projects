@@ -54,5 +54,31 @@ namespace Курсов_проект
         {
             DGrid.Rows.Add(CardNumber, CardType, Date, Currency, Balance);
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            cards.Clear();
+            for (int i = 0; i < DGrid.RowCount - 1; i++)
+            {
+                Card cr = new Card();
+                cr.CardNumber = Convert.ToInt32(DGrid[0, i].Value.ToString());
+                cr.CardType = DGrid[1, i].Value.ToString();
+                cr.Date = DGrid[2, i].Value.ToString();
+                cr.Currency = DGrid[3, i].Value.ToString();
+                cr.Balance = Convert.ToDecimal(DGrid[4, i].Value.ToString());
+                cards.Add(cr);
+            }
+            fs = new FileStream(fileName, FileMode.Create);
+            BinaryWriter bw = new BinaryWriter(fs);
+            for (int i = 0; i < cards.Count; i++)
+            {
+                bw.Write(cards[i].CardNumber);
+                bw.Write(cards[i].CardType);
+                bw.Write(cards[i].Date);
+                bw.Write(cards[i].Currency);
+                bw.Write(cards[i].Balance);
+            }
+            fs.Close();
+        }
     }
 }
