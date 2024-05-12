@@ -77,11 +77,9 @@ namespace Курсов_проект
                 bw.Write(cards[i].CardType);
                 bw.Write(cards[i].Date);
                 bw.Write(cards[i].Currency);
-                bw.Write((decimal)cards[i].Balance);
+                bw.Write(cards[i].Balance);
             }
             fs.Close();
         }
-
-        
     }
 }

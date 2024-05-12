@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Намери = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -44,7 +45,7 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.Azure;
-            this.textBox1.Location = new System.Drawing.Point(36, 105);
+            this.textBox1.Location = new System.Drawing.Point(38, 105);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(227, 22);
             this.textBox1.TabIndex = 1;
@@ -52,6 +53,7 @@
             // Намери
             // 
             this.Намери.BackColor = System.Drawing.Color.Aqua;
+            this.Намери.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Намери.ForeColor = System.Drawing.Color.Black;
             this.Намери.Location = new System.Drawing.Point(320, 85);
             this.Намери.Name = "Намери";
@@ -127,7 +129,7 @@
             // BT1
             // 
             this.BT1.BackColor = System.Drawing.Color.Aqua;
-            this.BT1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BT1.Location = new System.Drawing.Point(640, 85);
             this.BT1.Name = "BT1";
             this.BT1.Size = new System.Drawing.Size(174, 42);
@@ -139,7 +141,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Aqua;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(36, 419);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(182, 49);
@@ -161,7 +163,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Намери);
             this.Controls.Add(this.textBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Търсене на карти";
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).EndInit();
             this.ResumeLayout(false);
