@@ -43,99 +43,102 @@
             // 
             // button1
             // 
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.BackColor = System.Drawing.Color.Aqua;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(575, 340);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 52);
             this.button1.TabIndex = 0;
             this.button1.Text = "Добави";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(171, 75);
+            this.label1.Location = new System.Drawing.Point(157, 62);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 18);
+            this.label1.Size = new System.Drawing.Size(179, 27);
             this.label1.TabIndex = 1;
             this.label1.Text = "Номер на карта";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(171, 110);
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(157, 104);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 18);
+            this.label2.Size = new System.Drawing.Size(148, 27);
             this.label2.TabIndex = 2;
             this.label2.Text = "Вид на карта";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(171, 145);
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(157, 148);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 18);
+            this.label3.Size = new System.Drawing.Size(209, 27);
             this.label3.TabIndex = 3;
             this.label3.Text = "Дата на валидност";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(171, 178);
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(157, 195);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 18);
+            this.label4.Size = new System.Drawing.Size(84, 27);
             this.label4.TabIndex = 4;
             this.label4.Text = "Валута";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Location = new System.Drawing.Point(171, 211);
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(157, 235);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 18);
+            this.label5.Size = new System.Drawing.Size(76, 27);
             this.label5.TabIndex = 5;
             this.label5.Text = "Салдо";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(344, 69);
+            this.textBox1.Location = new System.Drawing.Point(405, 67);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(122, 22);
+            this.textBox1.Size = new System.Drawing.Size(155, 22);
             this.textBox1.TabIndex = 6;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(344, 104);
+            this.textBox2.Location = new System.Drawing.Point(405, 109);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(122, 22);
+            this.textBox2.Size = new System.Drawing.Size(155, 22);
             this.textBox2.TabIndex = 7;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(344, 139);
+            this.textBox3.Location = new System.Drawing.Point(405, 153);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(122, 22);
+            this.textBox3.Size = new System.Drawing.Size(155, 22);
             this.textBox3.TabIndex = 8;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(344, 172);
+            this.textBox4.Location = new System.Drawing.Point(405, 200);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(122, 22);
+            this.textBox4.Size = new System.Drawing.Size(155, 22);
             this.textBox4.TabIndex = 9;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(344, 205);
+            this.textBox5.Location = new System.Drawing.Point(405, 240);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(122, 22);
+            this.textBox5.Size = new System.Drawing.Size(155, 22);
             this.textBox5.TabIndex = 10;
             // 
             // Form3
@@ -157,7 +160,6 @@
             this.Controls.Add(this.button1);
             this.Name = "Form3";
             this.Text = "Добави";
-            this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
