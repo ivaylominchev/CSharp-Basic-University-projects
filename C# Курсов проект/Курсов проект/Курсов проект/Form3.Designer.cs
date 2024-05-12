@@ -46,9 +46,9 @@
             this.button1.BackColor = System.Drawing.Color.Aqua;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(575, 340);
+            this.button1.Location = new System.Drawing.Point(586, 323);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(143, 52);
+            this.button1.Size = new System.Drawing.Size(177, 72);
             this.button1.TabIndex = 0;
             this.button1.Text = "Добави";
             this.button1.UseVisualStyleBackColor = false;
@@ -108,6 +108,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.Azure;
             this.textBox1.Location = new System.Drawing.Point(405, 67);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(155, 22);
@@ -115,6 +116,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.Color.Azure;
             this.textBox2.Location = new System.Drawing.Point(405, 109);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(155, 22);
@@ -122,6 +124,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.Color.Azure;
             this.textBox3.Location = new System.Drawing.Point(405, 153);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(155, 22);
@@ -129,6 +132,7 @@
             // 
             // textBox4
             // 
+            this.textBox4.BackColor = System.Drawing.Color.Azure;
             this.textBox4.Location = new System.Drawing.Point(405, 200);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(155, 22);
@@ -136,6 +140,7 @@
             // 
             // textBox5
             // 
+            this.textBox5.BackColor = System.Drawing.Color.Azure;
             this.textBox5.Location = new System.Drawing.Point(405, 240);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(155, 22);
@@ -146,7 +151,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(785, 424);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);

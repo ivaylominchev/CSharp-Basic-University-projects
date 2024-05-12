@@ -42,27 +42,31 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(36, 54);
+            this.textBox1.BackColor = System.Drawing.Color.Azure;
+            this.textBox1.Location = new System.Drawing.Point(36, 105);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(179, 22);
+            this.textBox1.Size = new System.Drawing.Size(227, 22);
             this.textBox1.TabIndex = 1;
             // 
             // Намери
             // 
-            this.Намери.Location = new System.Drawing.Point(282, 35);
+            this.Намери.BackColor = System.Drawing.Color.Aqua;
+            this.Намери.ForeColor = System.Drawing.Color.Black;
+            this.Намери.Location = new System.Drawing.Point(338, 85);
             this.Намери.Name = "Намери";
             this.Намери.Size = new System.Drawing.Size(126, 42);
             this.Намери.TabIndex = 2;
             this.Намери.Text = "Намери";
-            this.Намери.UseVisualStyleBackColor = true;
+            this.Намери.UseVisualStyleBackColor = false;
             this.Намери.Click += new System.EventHandler(this.Намери_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 35);
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(33, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 16);
+            this.label1.Size = new System.Drawing.Size(230, 27);
             this.label1.TabIndex = 3;
             this.label1.Text = "Въведи вид на карта";
             // 
@@ -70,17 +74,18 @@
             // 
             this.DGrid.AllowUserToAddRows = false;
             this.DGrid.AllowUserToDeleteRows = false;
+            this.DGrid.BackgroundColor = System.Drawing.Color.LightSkyBlue;
             this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3});
-            this.DGrid.Location = new System.Drawing.Point(36, 150);
+            this.DGrid.Location = new System.Drawing.Point(36, 170);
             this.DGrid.Name = "DGrid";
             this.DGrid.ReadOnly = true;
             this.DGrid.RowHeadersWidth = 51;
             this.DGrid.RowTemplate.Height = 24;
-            this.DGrid.Size = new System.Drawing.Size(430, 150);
+            this.DGrid.Size = new System.Drawing.Size(428, 192);
             this.DGrid.TabIndex = 4;
             this.DGrid.Visible = false;
             // 
@@ -110,27 +115,31 @@
             // 
             // LB1
             // 
+            this.LB1.BackColor = System.Drawing.Color.LightSkyBlue;
             this.LB1.FormattingEnabled = true;
             this.LB1.ItemHeight = 16;
-            this.LB1.Location = new System.Drawing.Point(533, 152);
+            this.LB1.Location = new System.Drawing.Point(540, 166);
             this.LB1.Name = "LB1";
-            this.LB1.Size = new System.Drawing.Size(348, 148);
+            this.LB1.Size = new System.Drawing.Size(348, 196);
             this.LB1.TabIndex = 5;
             // 
             // BT1
             // 
-            this.BT1.Location = new System.Drawing.Point(678, 38);
+            this.BT1.BackColor = System.Drawing.Color.Aqua;
+            this.BT1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BT1.Location = new System.Drawing.Point(640, 85);
             this.BT1.Name = "BT1";
-            this.BT1.Size = new System.Drawing.Size(174, 39);
+            this.BT1.Size = new System.Drawing.Size(174, 42);
             this.BT1.TabIndex = 6;
             this.BT1.Text = "Средна стойност";
-            this.BT1.UseVisualStyleBackColor = true;
+            this.BT1.UseVisualStyleBackColor = false;
             this.BT1.Click += new System.EventHandler(this.BT1_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(917, 450);
             this.Controls.Add(this.BT1);
             this.Controls.Add(this.LB1);
@@ -140,7 +149,6 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form2";
             this.Text = "Търсене";
-            this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -47,7 +47,7 @@
             // 
             // DGrid
             // 
-            this.DGrid.BackgroundColor = System.Drawing.Color.Aqua;
+            this.DGrid.BackgroundColor = System.Drawing.Color.LightSkyBlue;
             this.DGrid.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -101,6 +101,8 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Aqua;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(319, 396);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(142, 52);
@@ -112,7 +114,8 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Aqua;
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(319, 252);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(142, 52);
@@ -135,7 +138,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(31, 421);
+            this.label2.Location = new System.Drawing.Point(31, 407);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(196, 27);
             this.label2.TabIndex = 5;
@@ -164,7 +167,8 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.Aqua;
-            this.button4.Location = new System.Drawing.Point(646, 421);
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(646, 425);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(142, 52);
             this.button4.TabIndex = 8;
@@ -175,6 +179,8 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Aqua;
+            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(319, 327);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(142, 52);

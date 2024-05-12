@@ -22,11 +22,6 @@ namespace Курсов_проект
 
         }
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Намери_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < gl.cards.Count; i++)
@@ -36,7 +31,6 @@ namespace Курсов_проект
                     DGrid.Rows.Add(gl.cards[i].CardNumber, gl.cards[i].CardType, gl.cards[i].Balance);
                     DGrid.Show();
                 }
-                    
             }
         }
 
@@ -79,7 +73,5 @@ namespace Курсов_проект
 
             DisplayAverageBalances(averageBalances);
         }
-
-        
     }
 }
