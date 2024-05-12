@@ -54,12 +54,12 @@
             this.Column3,
             this.Column4,
             this.Column5});
-            this.DGrid.Location = new System.Drawing.Point(30, 55);
+            this.DGrid.Location = new System.Drawing.Point(30, 34);
             this.DGrid.Name = "DGrid";
             this.DGrid.ReadOnly = true;
             this.DGrid.RowHeadersWidth = 51;
             this.DGrid.RowTemplate.Height = 24;
-            this.DGrid.Size = new System.Drawing.Size(679, 150);
+            this.DGrid.Size = new System.Drawing.Size(679, 178);
             this.DGrid.TabIndex = 0;
             // 
             // Column1
@@ -67,6 +67,7 @@
             this.Column1.HeaderText = "Номер на карта";
             this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.Width = 125;
             // 
             // Column2
@@ -74,6 +75,7 @@
             this.Column2.HeaderText = "Вид на карта";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             this.Column2.Width = 125;
             // 
             // Column3
@@ -81,6 +83,7 @@
             this.Column3.HeaderText = "Дата на валидност";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             this.Column3.Width = 125;
             // 
             // Column4
@@ -88,6 +91,7 @@
             this.Column4.HeaderText = "Валута";
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             this.Column4.Width = 125;
             // 
             // Column5
@@ -95,6 +99,7 @@
             this.Column5.HeaderText = "Салдо";
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             this.Column5.Width = 125;
             // 
             // button1
@@ -130,7 +135,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 36);
+            this.label1.Location = new System.Drawing.Point(27, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 16);
             this.label1.TabIndex = 4;

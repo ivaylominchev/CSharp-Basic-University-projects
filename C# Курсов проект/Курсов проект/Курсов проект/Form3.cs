@@ -22,8 +22,18 @@ namespace Курсов_проект
 
         private void button1_Click(object sender, EventArgs e)
         {
-            gl.AddToDGrid(Convert.ToInt32(textBox1.Text), textBox2.Text, textBox3.Text, textBox4.Text, Convert.ToDecimal(textBox5.Text));
+            int.TryParse( textBox1.Text, out int cardNumber);
+            string cardType = textBox2.Text;
+            string date = textBox3.Text;
+            string currency = textBox4.Text;
+            decimal.TryParse(textBox5.Text, out decimal balance);
+            gl.AddToDGrid(cardNumber,cardType,date,currency,balance);
             Close();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
