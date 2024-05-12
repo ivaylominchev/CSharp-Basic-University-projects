@@ -45,16 +45,10 @@ namespace Курсов_проект
             new Form3(this).Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         public void AddToDGrid(int CardNumber, string CardType, string Date, string Currency, decimal Balance)
         {
             DGrid.Rows.Add(CardNumber, CardType, Date, Currency, Balance);
         }
-
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -87,5 +81,7 @@ namespace Курсов_проект
             }
             fs.Close();
         }
+
+        
     }
 }
