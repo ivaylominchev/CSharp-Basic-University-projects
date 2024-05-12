@@ -30,7 +30,7 @@ namespace Курсов_проект
                 cr.Currency = br.ReadString();
                 cr.Balance = br.ReadDecimal();
                 cards.Add(cr);
-                DGrid.Rows.Add(cr.CardNumber, cr.CardType, cr.Date, cr.CardNumber, cr.Balance);
+                DGrid.Rows.Add(cr.CardNumber, cr.CardType, cr.Date, cr.Currency, cr.Balance);
             }
             fs.Close();
         }
@@ -55,6 +55,13 @@ namespace Курсов_проект
             DGrid.Rows.Add(CardNumber, CardType, Date, Currency, Balance);
         }
 
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Изход от приложението!");
+            Application.Exit();
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             cards.Clear();
@@ -76,15 +83,9 @@ namespace Курсов_проект
                 bw.Write(cards[i].CardType);
                 bw.Write(cards[i].Date);
                 bw.Write(cards[i].Currency);
-                bw.Write(cards[i].Balance);
+                bw.Write((decimal)cards[i].Balance);
             }
             fs.Close();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Изход от приложението!");
-            Application.Exit();
         }
     }
 }

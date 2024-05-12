@@ -27,7 +27,7 @@ namespace Курсов_проект
             string date = textBox3.Text;
             string currency = textBox4.Text;
             decimal.TryParse(textBox5.Text, out decimal balance);
-            gl.AddToDGrid(cardNumber,cardType,date,currency,balance);
+            gl.AddToDGrid(cardNumber, cardType, date, currency, balance);
             Close();
         }
 
