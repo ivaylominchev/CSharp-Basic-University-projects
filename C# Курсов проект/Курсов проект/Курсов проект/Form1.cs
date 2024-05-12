@@ -80,5 +80,11 @@ namespace Курсов_проект
             }
             fs.Close();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Изход от приложение!");
+            Application.Exit();
+        }
     }
 }

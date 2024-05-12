@@ -73,7 +73,7 @@
             this.Column1,
             this.Column2,
             this.Column3});
-            this.DGrid.Location = new System.Drawing.Point(67, 228);
+            this.DGrid.Location = new System.Drawing.Point(82, 150);
             this.DGrid.Name = "DGrid";
             this.DGrid.ReadOnly = true;
             this.DGrid.RowHeadersWidth = 51;
