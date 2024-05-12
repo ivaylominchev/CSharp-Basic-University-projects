@@ -28,7 +28,7 @@ namespace Курсов_проект
         {
             for (int i = 0; i < gl.cards.Count; i++)
             {
-                if (textBox1.Text == gl.cards[i].CardType)
+                if (textBox1.Text == gl.cards[i].CardType && gl.cards[i].Balance > 0)
                 {
                     DGrid.Rows.Add(gl.cards[i].CardNumber, gl.cards[i].CardType, gl.cards[i].Balance);
                     DGrid.Show();

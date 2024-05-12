@@ -14,14 +14,5 @@ namespace Курсов_проект
         public string Currency { get; set; }
         public decimal Balance { get; set; }
 
-       /* public Card(int cardNumber, string cardType, string date, string currency, decimal balance)
-        {
-            CardNumber = cardNumber;
-            CardType = cardType;
-            Date = date;
-            Currency = currency;
-            Balance = balance;
-        }*/
-
     }
 }
