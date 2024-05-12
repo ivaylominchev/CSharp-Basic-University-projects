@@ -14,8 +14,7 @@ namespace Курсов_проект
     public partial class Form2 : Form
     {
         Form1 gl;
-        private List<Card> cards = new List<Card>();
-
+        
         public Form2(Form1 gl)
         {
             InitializeComponent();
@@ -76,9 +75,11 @@ namespace Курсов_проект
 
         private void BT1_Click(object sender, EventArgs e)
         {
-            var averageBalances = CalculateAverageBalance(cards);
+            var averageBalances = CalculateAverageBalance(gl.cards);
 
             DisplayAverageBalances(averageBalances);
         }
+
+        
     }
 }

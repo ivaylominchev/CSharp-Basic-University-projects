@@ -112,9 +112,9 @@
             // 
             this.LB1.FormattingEnabled = true;
             this.LB1.ItemHeight = 16;
-            this.LB1.Location = new System.Drawing.Point(633, 152);
+            this.LB1.Location = new System.Drawing.Point(533, 152);
             this.LB1.Name = "LB1";
-            this.LB1.Size = new System.Drawing.Size(248, 148);
+            this.LB1.Size = new System.Drawing.Size(348, 148);
             this.LB1.TabIndex = 5;
             // 
             // BT1
