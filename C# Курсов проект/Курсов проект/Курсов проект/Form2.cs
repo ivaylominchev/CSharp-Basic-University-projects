@@ -14,6 +14,8 @@ namespace Курсов_проект
     public partial class Form2 : Form
     {
         Form1 gl;
+        private List<Card> cards = new List<Card>();
+
         public Form2(Form1 gl)
         {
             InitializeComponent();
@@ -30,7 +32,7 @@ namespace Курсов_проект
         {
             for (int i = 0; i < gl.cards.Count; i++)
             {
-                if (textBox1.Text == gl.cards[i].CardType.ToLower() && gl.cards[i].Balance > 0)
+                if (textBox1.Text.ToLower() == gl.cards[i].CardType.ToLower() && gl.cards[i].Balance > 0)
                 {
                     DGrid.Rows.Add(gl.cards[i].CardNumber, gl.cards[i].CardType, gl.cards[i].Balance);
                     DGrid.Show();
@@ -72,9 +74,9 @@ namespace Курсов_проект
             return averageBalances;
         }
 
-        private void BT1_Click(object sender, EventArgs e, List<Card> cards)
+        private void BT1_Click(object sender, EventArgs e)
         {
-            Dictionary<string, decimal> averageBalances = CalculateAverageBalance(cards);
+            var averageBalances = CalculateAverageBalance(cards);
 
             DisplayAverageBalances(averageBalances);
         }

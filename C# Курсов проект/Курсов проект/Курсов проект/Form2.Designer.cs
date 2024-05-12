@@ -125,6 +125,7 @@
             this.BT1.TabIndex = 6;
             this.BT1.Text = "Средна стойност";
             this.BT1.UseVisualStyleBackColor = true;
+            this.BT1.Click += new System.EventHandler(this.BT1_Click);
             // 
             // Form2
             // 
