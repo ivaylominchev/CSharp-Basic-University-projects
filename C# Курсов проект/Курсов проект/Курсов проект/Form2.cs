@@ -24,6 +24,7 @@ namespace Курсов_проект
 
         private void Намери_Click(object sender, EventArgs e)
         {
+            DGrid.Rows.Clear();
             for (int i = 0; i < gl.cards.Count; i++)
             {
                 if (textBox1.Text.ToLower() == gl.cards[i].CardType.ToLower() && gl.cards[i].Balance > 0)
@@ -32,6 +33,7 @@ namespace Курсов_проект
                     DGrid.Show();
                 }
             }
+            textBox1.Clear();
         }
 
         private void DisplayAverageBalances(Dictionary<string, decimal> averageBalance)
