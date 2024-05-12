@@ -46,7 +46,7 @@ namespace Курсов_проект
             LB1.Items.Clear();
             foreach (var item in averageBalance)
             {
-                LB1.Items.Add($"{item.Key}: {item.Value:F2}");
+                LB1.Items.Add($"Вид карта: {item.Key}: {item.Value:F2} (средно салдо)");
             }
         }
         private Dictionary<string, decimal> CalculateAverageBalance(List<Card> cards)
