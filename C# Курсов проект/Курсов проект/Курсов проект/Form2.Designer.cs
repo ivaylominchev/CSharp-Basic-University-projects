@@ -82,6 +82,7 @@
             this.DGrid.RowTemplate.Height = 24;
             this.DGrid.Size = new System.Drawing.Size(430, 150);
             this.DGrid.TabIndex = 4;
+            this.DGrid.Visible = false;
             // 
             // Column1
             // 
