@@ -35,19 +35,21 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LB1 = new System.Windows.Forms.ListBox();
+            this.BT1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 55);
+            this.textBox1.Location = new System.Drawing.Point(36, 54);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 22);
             this.textBox1.TabIndex = 1;
             // 
             // Намери
             // 
-            this.Намери.Location = new System.Drawing.Point(352, 35);
+            this.Намери.Location = new System.Drawing.Point(282, 35);
             this.Намери.Name = "Намери";
             this.Намери.Size = new System.Drawing.Size(126, 42);
             this.Намери.TabIndex = 2;
@@ -58,7 +60,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(79, 35);
+            this.label1.Location = new System.Drawing.Point(33, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(144, 16);
             this.label1.TabIndex = 3;
@@ -73,7 +75,7 @@
             this.Column1,
             this.Column2,
             this.Column3});
-            this.DGrid.Location = new System.Drawing.Point(82, 150);
+            this.DGrid.Location = new System.Drawing.Point(36, 150);
             this.DGrid.Name = "DGrid";
             this.DGrid.ReadOnly = true;
             this.DGrid.RowHeadersWidth = 51;
@@ -105,11 +107,31 @@
             this.Column3.ReadOnly = true;
             this.Column3.Width = 125;
             // 
+            // LB1
+            // 
+            this.LB1.FormattingEnabled = true;
+            this.LB1.ItemHeight = 16;
+            this.LB1.Location = new System.Drawing.Point(633, 152);
+            this.LB1.Name = "LB1";
+            this.LB1.Size = new System.Drawing.Size(248, 148);
+            this.LB1.TabIndex = 5;
+            // 
+            // BT1
+            // 
+            this.BT1.Location = new System.Drawing.Point(678, 38);
+            this.BT1.Name = "BT1";
+            this.BT1.Size = new System.Drawing.Size(174, 39);
+            this.BT1.TabIndex = 6;
+            this.BT1.Text = "Средна стойност";
+            this.BT1.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(917, 450);
+            this.Controls.Add(this.BT1);
+            this.Controls.Add(this.LB1);
             this.Controls.Add(this.DGrid);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Намери);
@@ -131,5 +153,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.ListBox LB1;
+        private System.Windows.Forms.Button BT1;
     }
 }

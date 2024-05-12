@@ -83,7 +83,7 @@ namespace Курсов_проект
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Изход от приложение!");
+            MessageBox.Show("Изход от приложението!");
             Application.Exit();
         }
     }
