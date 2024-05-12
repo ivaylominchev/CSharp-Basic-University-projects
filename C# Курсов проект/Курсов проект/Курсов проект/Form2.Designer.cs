@@ -37,6 +37,7 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LB1 = new System.Windows.Forms.ListBox();
             this.BT1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,12 +136,25 @@
             this.BT1.UseVisualStyleBackColor = false;
             this.BT1.Click += new System.EventHandler(this.BT1_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Aqua;
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(36, 419);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(182, 49);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Назад";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(917, 450);
+            this.ClientSize = new System.Drawing.Size(917, 480);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BT1);
             this.Controls.Add(this.LB1);
             this.Controls.Add(this.DGrid);
@@ -148,7 +162,7 @@
             this.Controls.Add(this.Намери);
             this.Controls.Add(this.textBox1);
             this.Name = "Form2";
-            this.Text = "Търсене";
+            this.Text = "Търсене на карти";
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -165,5 +179,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.ListBox LB1;
         private System.Windows.Forms.Button BT1;
+        private System.Windows.Forms.Button button1;
     }
 }
