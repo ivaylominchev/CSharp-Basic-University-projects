@@ -53,9 +53,9 @@
             // 
             this.Намери.BackColor = System.Drawing.Color.Aqua;
             this.Намери.ForeColor = System.Drawing.Color.Black;
-            this.Намери.Location = new System.Drawing.Point(338, 85);
+            this.Намери.Location = new System.Drawing.Point(320, 85);
             this.Намери.Name = "Намери";
-            this.Намери.Size = new System.Drawing.Size(126, 42);
+            this.Намери.Size = new System.Drawing.Size(144, 42);
             this.Намери.TabIndex = 2;
             this.Намери.Text = "Намери";
             this.Намери.UseVisualStyleBackColor = false;

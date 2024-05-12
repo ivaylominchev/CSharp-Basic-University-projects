@@ -30,5 +30,10 @@ namespace Курсов_проект
             gl.AddToDGrid(cardNumber, cardType, date, currency, balance);
             Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
